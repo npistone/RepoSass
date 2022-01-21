@@ -1,0 +1,46 @@
+.grid-nav{
+    
+    display: flex;
+    background-color: #000004;   
+    position: sticky;
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    overflow: visible;
+    opacity: 0.7;
+    border-radius: 15px;
+    width: 100%;
+    padding-left: 0;
+    font-size: small;
+        img{
+
+        
+        box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.75);
+        border-radius: 5px;
+        height: 60px;
+        width: 150px;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;    
+            float: right;
+            margin: auto;
+            margin-left: 5px;
+            padding: 0%;
+
+            li {
+                display: flex;
+                  
+                text-decoration: none;
+                padding: 0 2px;
+
+                a{
+                    text-decoration: none;
+                    color: white;                    
+                }
+            }
+        }
+    }   

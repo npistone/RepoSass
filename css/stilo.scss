@@ -1,0 +1,118 @@
+@import "navbar";
+@import "variables";
+
+body{
+
+    background-color: blueviolet;
+}
+.grid-contenedor{
+    background-color: $colorPpal;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto 70px;
+
+    background-color: #2E9992;
+
+    .grid-descriptivo__titu{
+        margin: 15px 0;
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        font-family: 'Otomanopee One', sans-serif;
+        background: linear-gradient(rgb(124, 174, 197), rgb(32, 223, 134));
+
+    }
+    .grid-productos{
+        display: flex;
+        flex-direction: column;   
+        background-color: #2E9992;    
+        padding-top: 50px;
+        align-items: center;
+        align-content: center;
+            &__imagenPrincipal{
+                width: 90%;
+                padding: 10px 5px;
+                text-align: center;
+                margin:0;
+            }
+            &__texto{
+
+                margin:0;
+                padding: 20px 5px;
+                width: 90%;
+                height: 200px;    
+                font-family: 'Oregano', cursive;
+                font-size:x-large;
+                text-align: center;
+                border: 4px inset lightgrey;
+            }
+    }
+    .grid-productos__titu{
+        margin:  0;
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        font-family: 'Otomanopee One', sans-serif;
+        background: linear-gradient(rgb(124, 174, 197), rgb(32, 223, 134));
+    }
+
+    .grid-prods{
+
+        display: flex;
+        flex-direction: column;    
+        background-color: #2E9992;
+
+        &__cards{
+            width: 100%;
+            padding: 10px 0;
+            text-align: center;
+        }
+    }
+
+    .grid-frame{
+
+        display: flex;  
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        background-color: #2E9992;
+        padding: 10px 10px;
+        margin: 0;
+
+    }
+
+    .grid-pie{
+        display: flex;
+        background-color: #000004;   
+        border: 3px;
+        border-style: solid;
+        overflow: visible;
+        opacity: 0.7;
+        width: auto;
+        height: 70px;
+        justify-content: space-around;
+        padding: 10px ;
+
+        &__icons{
+            display: inline;
+            height: 70px;
+            width: 60px;
+            padding: 10px 10px;
+
+        }
+
+
+    }
+        
+
+
+
+
+}
